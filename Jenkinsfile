@@ -19,7 +19,7 @@ pipeline {
   stage('git pull') {
     steps {
       //git 'https://github.com/damian-idczak/Frontend'
-      git checkout scm
+      checkout scm
     }
   }
   
